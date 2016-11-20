@@ -1,0 +1,23 @@
+{
+  "name": "hexo-helper-qrcode",
+  "version": "1.0.0",
+  "description": "QRcode for Hexo helper plugins.",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "qrcode",
+    "helper"
+  ],
+  "author": {
+    "name": "yusen",
+    "email": "634206017@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "qr-image": "^3.1.0"
+  },
+  "repository": {
+    "url": "git+https://github.com/yscoder/hexo-helper-qrcode.git",
+    "type": "git"
+  }
+}
