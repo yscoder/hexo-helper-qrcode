@@ -1,6 +1,6 @@
 {
   "name": "hexo-helper-qrcode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "QRcode for Hexo helper plugins.",
   "main": "index.js",
   "keywords": [

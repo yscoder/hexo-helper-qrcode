@@ -1,10 +1,10 @@
 const qrImage = require('qr-image')
 
 hexo.extend.helper.register('qrcode', function(url, option){
-    option = Object.assign(option || {}, {
+    option = Object.assign({
         size: 6,
         margin: 0
-    })
+    }, option || {})
 
     const buffer = qrImage.imageSync(url, {
         type: 'png',
